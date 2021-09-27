@@ -1,4 +1,6 @@
-# My personal homepage
+# adepreis.github.io
+
+Based on [biomadeira](https://biomadeira.github.io) personal homepage Jekyll theme.
 
 Powered by [Jekyll](http://jekyllrb.com/), [Github Pages](https://pages.github.com/) and others.
 

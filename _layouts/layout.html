@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
-    <link rel="favicon" href="{{ site.baseurl }}static/img/favicon.ico">
+
+    <!-- link rel="favicon" href="{{ site.baseurl }}static/img/favicon.ico" -->
+    <link rel="icon" sizes="192x192" href="{{ site.baseurl }}static/img/favicon-192x192.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}static/img/favicon-180x180.png" />
+
     <title>{{ site.title }}</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -26,7 +30,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <!-- Google Analytics -->
-    {% include analytics.html %}
   </body>
 </html>
